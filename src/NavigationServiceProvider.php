@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 class NavigationServiceProvider extends ServiceProvider {
 
     public function boot() {
-        $rootPath = __DIR__ . '/..';
+        $rootPath = __DIR__;
         $this->loadViewsFrom( $rootPath . '/views', 'Vector88/navigation' );
         $this->loadRoutesFrom( $rootPath . '/routes.php' );
         $this->publishes( [
