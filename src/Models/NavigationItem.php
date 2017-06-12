@@ -2,7 +2,7 @@
 
 namespace Vector88\Navigation\Models;
 
-class NavigationItem {
+class NavigationItem extends \stdClass {
 
     public $key;
     public $label;
