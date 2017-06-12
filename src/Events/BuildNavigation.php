@@ -42,6 +42,7 @@ class BuildNavigation {
             $target->sortIndex = $item->sortIndex;
             $target->href = $item->href ? $item->href : "#";
             $target->right = $item->right;
+            $target->data = $item->data;
 
         }
 
