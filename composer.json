@@ -1,0 +1,20 @@
+{
+    "name": "vector88/laravel-navigation",
+    "description": "Navigation module for Laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Daniel 'Vector' Kerr",
+            "email": "vector.kerr@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "5.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vector88\\Navigation\\": "src/"
+        }
+    }
+}
