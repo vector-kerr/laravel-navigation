@@ -21,6 +21,7 @@ class BuildNavigation {
 
         $root = new stdClass();
         $root->items = [];
+        $root->data = new stdClass();
 
         foreach( $this->_items as $item ) {
 
